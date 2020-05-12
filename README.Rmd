@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# graysacle
+
+This package allows us to use this [theme](https://blackrockdigital.github.io/startbootstrap-grayscale/) inside a ShinyApplication
+
+## Installation
+
+You can install the released version of graysacle from here :
+
+``` r
+remotes::install_github("Cervangirard/graysacle")
+```
+
+## Example
+
+Find a example here !
+

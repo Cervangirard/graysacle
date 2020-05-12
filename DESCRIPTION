@@ -1,0 +1,19 @@
+Package: graysacle
+Title: Graysacle theme 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Cervan",
+           family = "Girard",
+           role = c("aut", "cre"),
+           email = "cervan@thinkr.fr")
+Description: Allow us to use the graysacle theme inside a ShinyApp.
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    htmltools,
+    shiny,
+    pkgload
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.0
