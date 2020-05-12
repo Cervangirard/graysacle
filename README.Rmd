@@ -15,6 +15,10 @@ knitr::opts_chunk$set(
 
 # graysacle
 
+<!-- badges: start -->
+[![R build status](https://github.com/Cervangirard/graysacle/workflows/R-CMD-check/badge.svg)](https://github.com/Cervangirard/graysacle/actions)
+<!-- badges: end -->
+
 This package allows us to use this [theme](https://blackrockdigital.github.io/startbootstrap-grayscale/) inside a ShinyApplication
 
 ## Installation
@@ -27,5 +31,5 @@ remotes::install_github("Cervangirard/graysacle")
 
 ## Example
 
-Find a example here !
+Find a example [here](https://cervangirard.shinyapps.io/graysacle/) !
 
