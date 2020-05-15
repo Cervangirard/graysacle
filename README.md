@@ -17,4 +17,4 @@ remotes::install_github("Cervangirard/graysacle")
 
 ## Example
 
-Find a example here \!
+Find a example [here](https://cervangirard.shinyapps.io/graysacle) !
