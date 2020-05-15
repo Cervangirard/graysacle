@@ -23,12 +23,14 @@ app_ui <- function(request) {
                              img(src ="www/assets/img/ipad.png", class = "img-fluid"),
                              dark = TRUE),
         graysacle_section_bg("projects",
-                             graysacle_one_project("www/assets/img/bg-signup.jpg",
+                             graysacle_one_project_img("www/assets/img/bg-signup.jpg",
                                                    title = "One project",
                                                    description = "Example of conponent for one project", dark = TRUE),
                              # galery
-                             graysacle_projects("www/assets/img/demo-image-01.jpg", title = "First image", "Beautiful image", img_first = TRUE),
-                             graysacle_projects("www/assets/img/demo-image-02.jpg", title = "Second image", "Beautiful second image", img_first = FALSE)
+                             graysacle_projects_img("www/assets/img/demo-image-01.jpg", title = "First image", "Beautiful image", img_first = TRUE),
+                             graysacle_projects_img("www/assets/img/demo-image-02.jpg", title = "Second image", "Beautiful second image", img_first = FALSE),
+                             graysacle_projects(plotOutput("plot"),
+                                                title = "A plot", description = "Iris.... Always iris...", first = TRUE)
         ),
         graysacle_section_bg("contact",
                           dark = TRUE,

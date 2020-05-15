@@ -4,16 +4,16 @@
 \alias{graysacle_projects}
 \title{Another formatting project}
 \usage{
-graysacle_projects(img, title, description, img_first = TRUE)
+graysacle_projects(..., title, description, first = TRUE)
 }
 \arguments{
-\item{img}{path to www folder for img}
+\item{...}{html code (like ggplot or table)}
 
 \item{title}{title}
 
 \item{description}{description}
 
-\item{img_first}{if TRUE, img should be on the left side}
+\item{first}{if TRUE, your html code should be on the left side}
 }
 \value{
 tagList
