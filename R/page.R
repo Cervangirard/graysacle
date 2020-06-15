@@ -47,6 +47,7 @@ graysacle_header <- function(ref_to_go, title = "Grayscale", description = "Exam
 
 #' Get JS ressources
 #'
+#' @export
 #' @return tagList
 graysacle_ressources <- function(){
   tagList(
